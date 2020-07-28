@@ -1,0 +1,73 @@
+/* css resets */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: #E0A434;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+main{
+  margin: 15%;
+}
+ul{
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+/* to make rows and columns use float and clear */
+.row{
+  width:100%;
+  height: 600px;
+  /* background-color: black; */
+}
+.col{
+  width: 50%;
+  height: 500px;
+  float: left;
+  padding: 30px;
+  /* background-color: green; */
+  /* border: solid 5px red; */
+}
+.row:after{
+  clear: both;
+  display: table;
+  content:"";
+}
+.chocolates{
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.nameChoc{
+  background: black;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+.priceChoc{
+  color: #E0A434;
+  line-height: 25px;
+}
+.ingredients{
+  color: #E0A434;
+  margin-bottom: 30px;
+}
+.description{
+  font-size: 18px;
+  line-height: 25px;
+  width: 60%;
+}
+
+.navList{
+  list-style: none;
+  display: inline;
+  margin: 3%;
+}
+.logo{
+  margin-bottom: 20px;
+}
