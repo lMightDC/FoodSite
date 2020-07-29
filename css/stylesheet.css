@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 h1{
   color: #E0A434;
   margin-top: 30px;
@@ -18,7 +17,6 @@ ul{
   margin-left: 30px;
   padding-top: 30px;
 }
-
 /* to make rows and columns use float and clear */
 .row{
   width:100%;
@@ -43,7 +41,6 @@ ul{
   height: auto;
   max-height: 500px;
 }
-
 .nameChoc{
   background: black;
   color: whitesmoke;
@@ -62,7 +59,6 @@ ul{
   line-height: 25px;
   width: 60%;
 }
-
 .navList{
   list-style: none;
   display: inline;
@@ -70,4 +66,75 @@ ul{
 }
 .logo{
   margin-bottom: 20px;
+}
+.banner{
+  width: 100%;
+  height: auto;
+  max-height: 550px;
+  margin: 20px;
+}
+.bannerText1{
+  color: white;
+  margin-left: 20px;
+  z-index: 2
+}
+.bannerText2{
+
+}
+
+/* cakes style */
+h1{
+  /* color: #fed021; */
+  margin: 25px 30px 0px 30px;
+}
+h4{
+  color:#fed021;
+}
+
+/* css selctors - tag, id, class */
+
+.anotherHeading1{
+  /* color: red; /* color name */
+  /* color: #FF0000; /* hex code */
+
+  color: hsl(9, 100%, 64%);
+}
+.anotherHeading2{
+  color: rgb(255,0,0);
+}
+#introPara{
+  margin: 25px 30px;
+  line-height: 30px;
+  width: 60%;
+}
+.ingradients{
+  /* border : 2px solid blue; */
+  padding: 10px  0px;
+  background: gray;
+  width: 60%;
+  margin: 30px;
+}
+.ingradientsList{
+  padding: 10px;
+  border : 2px solid #fed021;
+  margin-left: 30px;
+  width: 60%;
+}
+
+.list{
+  list-style: none;
+  line-height: 30px;
+
+}
+.cake{
+  width: 40%;
+  height:auto;
+  margin-left: 30px;
+
+}
+
+/* special effect on elements  */
+.cake:hover{
+  border : 3px solid orange;
+  padding: 10px;
 }
